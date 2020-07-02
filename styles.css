@@ -1,0 +1,150 @@
+body {
+    font-family: quicksand;
+    background-color: #060606;
+    color: #fdfdfd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.gradient {
+    background: rgb(27,34,189);
+    background: linear-gradient(90deg, rgba(27,34,189,1) 0%, rgba(183,19,255,1) 50%, rgba(204,11,11,1) 100%); 
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 7px #000;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #111;
+    padding: 50px;
+}
+
+.card-container {
+    margin: 80px 0;
+}
+
+.card h2 {
+    font: 500 31px quicksand;
+    text-align: center;
+}
+
+h2 {
+    font: 500 34px quicksand;
+}
+
+.grid-container, .contact-me-grid-container {
+  display: grid;
+}
+
+.grid-item {
+    color: #fdfdfd;;
+    background: rgb(27,34,189);
+    align-items:center;
+    justify-content:center;
+    background: linear-gradient(90deg, rgba(27,34,189,1) 0%, rgba(183,19,255,1) 50%, rgba(204,11,11,1) 100%); 
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact-me-item {
+    align-items:center;
+    border: 1px solid #ee00ee;
+    justify-content:center;
+    text-align: center;
+    border-radius: 10px;
+    color: #ee00ee;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 3rem;
+        padding: 20px;
+    }
+
+    .contact-me-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 3rem;
+        padding: 20px;
+    }
+
+    .grid-item {
+        padding: 7px;
+        font-size: 25px ;
+        border-radius: 10px;
+    }
+
+    .contact-me-item {
+        padding: 7px;
+        font-size: 25px ;
+        border-radius: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem;
+        padding: 30px;
+    }
+
+    .contact-me-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem;
+        padding: 30px;
+    }
+
+    .grid-item {
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+    
+    .contact-me-item {
+        padding: 10px;
+        font-size: 25px ;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1220px) {
+
+    .grid-item {
+        padding: 15px;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+
+    .grid-container {
+        padding: 37px;
+        grid-gap: 4rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact-me-grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 4rem;
+        padding: 40px;
+    }
+
+    .contact-me-item {
+        padding: 15px;
+        font-size: 30px ;
+        border-radius: 10px;
+    }
+
+}
