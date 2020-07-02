@@ -47,6 +47,8 @@ h2 {
 .grid-item {
     color: #fdfdfd;;
     background: rgb(27,34,189);
+    display: flex;
+    height: 100%;
     align-items:center;
     justify-content:center;
     background: linear-gradient(90deg, rgba(27,34,189,1) 0%, rgba(183,19,255,1) 50%, rgba(204,11,11,1) 100%); 
