@@ -13,7 +13,7 @@
         <div class="card-container">
             <div class="gradient">
                 <div class="card">
-                    <h2>Hi! I'm Kourosh Alinaghi, 16 Years Old Backend Developer.</h2>
+                  <h2>Hi! I'm Kourosh Alinaghi, <span id="age"></span> Years Old Backend Developer.</h2>
                 </div>
             </div>
         </div>
@@ -54,5 +54,10 @@
             </div>
         </div>
     </div>
+    <script>
+      now = new Date()
+      age = now.getFullYear() - 2004
+      document.querySelector("#age").innerHTML = age
+    </script>
 </body>
 </html>
