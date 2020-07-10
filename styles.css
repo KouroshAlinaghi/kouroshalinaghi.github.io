@@ -150,3 +150,8 @@ a {
     }
 
 }
+
+.contact-me-item:hover {
+    background-color: #ee00ee;
+    color: #fff;
+}
