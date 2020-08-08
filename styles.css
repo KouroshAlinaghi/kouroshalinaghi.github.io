@@ -1,9 +1,7 @@
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-color-2: #fff;
-    --bg-color-1: #eee;
-    --fg-color: #111;
-  }
+:root {
+  --bg-color-2: #fff;
+  --bg-color-1: #eee;
+  --fg-color: #111;
 }
 
 @media (prefers-color-scheme: dark) {
