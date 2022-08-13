@@ -8,57 +8,219 @@
     <meta name="theme-color" content="#060606">
     <title>Kourosh Alinaghi</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="card-container">
-            <div class="gradient">
-                <div class="card">
-                  <h2>Hi! I'm Kourosh Alinaghi, <span id="age"></span> Years Old Backend Developer.</h2>
-                </div>
+    <div id="header">
+        <div id="header-context">
+            <div id="header-text">
+                <h1 id="header-title">Hello, My name is Kourosh.</h1>
+                <h3>I'm a Backend developer, mostly working with Ruby and Elixir.</h3>
+            </div>
+            <div id="header-links">
+                <a href="https://t.me/kouroshalinaghi" target="_blank" class="link">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="1em" height="1em">
+                        <path
+                            d="M5.83,23.616c12.568-5.529,28.832-12.27,31.077-13.203c5.889-2.442,7.696-1.974,6.795,3.434 c-0.647,3.887-2.514,16.756-4.002,24.766c-0.883,4.75-2.864,5.313-5.979,3.258c-1.498-0.989-9.059-5.989-10.7-7.163 c-1.498-1.07-3.564-2.357-0.973-4.892c0.922-0.903,6.966-6.674,11.675-11.166c0.617-0.59-0.158-1.559-0.87-1.086 c-6.347,4.209-15.147,10.051-16.267,10.812c-1.692,1.149-3.317,1.676-6.234,0.838c-2.204-0.633-4.357-1.388-5.195-1.676 C1.93,26.43,2.696,24.995,5.83,23.616z" />
+                    </svg>
+                </a>
+                <a href="https://github.com/kouroshalinaghi" target="_blank" class="link">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path 
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/kouroshalinaghi/" target="_blank" class="link">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path 
+                            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/>
+                    </svg>
+                </a>
             </div>
         </div>
-        <div class="card-container">
-            <h2>Skills:</h2>
-            <div class="gradient">
-                <div class="card grid-container">
-                    <a href="https://elixir-lang.org/" target="_blank" class="grid-item">
-                        Elixir
-                    </a>
-                    <a href="https://www.ruby-lang.org/en/" target="_blank" class="grid-item">
-                        Ruby
-                    </a>
-                    <a href="https://en.wikipedia.org/wiki/Linux" target="_blank" class="grid-item">
-                        Linux
-                    </a>
-                    <a href="https://phoenixframework.org" target="_blank" class="grid-item">
-                        Phoenix Framework
-                    </a>
-                    <a href="https://rubyonrails.org/" target="_blank" class="grid-item">
-                        Rails Framework
-                    </a>
-                    <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" class="grid-item">
-                        Web Development
-                    </a>
+        <div id="header-image">
+            <img src="statics/img.jpg" alt="Kourosh Alinaghi" srcset="">
+        </div>
+    </div>
+
+    <div id="skills-container">
+    <h2 id="skills-text">Skills and Languages:</h2>
+        <div class="skill">
+            <h3 class="skill-title">Ruby</h3>            
+            <div class="projects-scroll">
+                <button class="slideLeft scroll" type="button" onclick="slide('left', 0)">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor">
+                        <path 
+                            d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/>
+                    </svg>
+                </button>
+                <div class="skill-projects">
+                    <div class="project">
+                        <div class="project-title">Changeset</div>
+                        <div class="project-description">An Ecto Changeset clone (only validations) for Ruby.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/ruby_changeset" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">Little Elementor</div>
+                        <div class="project-description">A little library that gives you minimal information about an element.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/little-elementor" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">Elementor Web</div>
+                        <div class="project-description">A web-interface for Little Elementor written in Sinatra.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/elementor-web" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">8 Queens</div>
+                        <div class="project-description">Solving 8 queens puzzle in Ruby using iterative repair algorithm (n queens in a n*n board).</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/8-queen" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">Einstein’s Riddle</div>
+                        <div class="project-description">Solving Einstein’s Riddle with Ruby just for fun.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/Einsteins-riddle" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">Monty Hall problem</div>
+                        <div class="project-description">I just dont get it.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/monty-hall-problem" target="_blank" project-link">View on Github</a>
+                        </div>
+                    </div>
                 </div>
+                <button class="slideRight scroll" type="button" onclick="slide('right', 0)">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor">
+                        <path 
+                            d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/>
+                    </svg>
+                </button>
             </div>
         </div>
-        <div class="card-container">
-            <h2>Contact Me</h2>
-            <div class="gradient">
-                <div class="card contact-me-grid-container">
-                    <a href="mailto:kouroshalinaghi@gmail.com" class="contact-me-item" target="_blank">Email</a>
-                    <a href="https://github.com/KouroshAlinaghi/" target="_blank" class="contact-me-item">Github</a>
-                    <a href="https://www.linkedin.com/in/kourosh-alinaghi-0568971b0/" class="contact-me-item" target="_blank">LinkedIn</a>
-                    <a href="https://t.me/idk_lol_krsh" class="contact-me-item" target="_blank">Telegram</a>
+        <div class="skill">
+            <h3 class="skill-title">Elixir</h3>            
+            <div class="projects-scroll">
+                <button class="slideLeft scroll" type="button" onclick="slide('left', 1)">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor">
+                        <path 
+                            d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/>
+                    </svg>
+                </button>
+                <div class="skill-projects">
+                    <div class="project">
+                        <div class="project-title">Calculator</div>
+                        <div class="project-description">A calculator written in Elixir.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/elixir-calculator" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">Sudoku solver</div>
+                        <div class="project-description"> Solving sudoku using recursive algorithm, in a few seconds.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/sudoku-solver" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">School blog</div>
+                        <div class="project-description">A simple blog (a school project).</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/school-blog" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
                 </div>
+                <button class="slideRight scroll" type="button" onclick="slide('right', 1)">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor">
+                        <path 
+                            d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="skill">
+            <h3 class="skill-title">Javascript</h3>            
+            <div class="projects-scroll">
+                <button class="slideLeft scroll" type="button" onclick="slide('left', 2)">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor">
+                        <path 
+                            d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/>
+                    </svg>
+                </button>
+                <div class="skill-projects">
+                    <div class="project">
+                        <div class="project-title">Memplator</div>
+                        <div class="project-description">An inline Telegram bot to search meme templates.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/memplator" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">Todo React app</div>
+                        <div class="project-description">A ToDo App Written In React.js.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/school-blog" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="slideRight scroll" type="button" onclick="slide('right', 2)">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor">
+                        <path 
+                            d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="skill">
+            <h3 class="skill-title">Others</h3>            
+            <div class="projects-scroll">
+                <button class="slideLeft scroll" type="button" onclick="slide('left', 3)">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor">
+                        <path 
+                            d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/>
+                    </svg>
+                </button>
+                <div class="skill-projects">
+                    <div class="project">
+                        <div class="project-title">Terminal table</div>
+                        <div class="project-description">A library that helps you create and print tables on your terminal, written in Crystal.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/terminal_table" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">Vim novak theme.</div>
+                        <div class="project-description">A dark colorscheme with colorful tokens for Vim!</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/vim-novak-theme" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">Dotfiles</div>
+                        <div class="project-description">My personal dotfiles + shell script to replace the configs.</div>
+                        <div class="project-link-container">
+                            <a href="https://github.com/KouroshAlinaghi/dotfiles" target="_blank" class="project-link">View on Github</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="slideRight scroll" type="button" onclick="slide('right', 3)">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor">
+                        <path 
+                            d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/>
+                    </svg>
+                </button>
             </div>
         </div>
     </div>
-    <script>
-      now = new Date()
-      age = now.getFullYear() - 2004
-      document.querySelector("#age").innerHTML = age
-    </script>
+    <div id="resume-border">
+        <a href="statics/Resume.pdf" id="resume" Download target="_blank">Download my Resume.PDF</a>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
