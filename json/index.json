@@ -1,0 +1,92 @@
+{
+    "heading": {
+        "title": "Hello, My name is Kourosh.",
+        "description": "I'm a Backend developer, mostly working with Ruby and Elixir.",
+        "links": {
+            "telegram": "https://t.me/kouroshalinaghi",
+            "github": "https://github.com/kouroshAlinaghi",
+            "linkedin": "https://www.linkedin.com/in/kouroshalinaghi/"
+        }
+    },
+
+    "skills": {
+        "Ruby": [
+            {
+                "title": "Changeset",
+                "description": "An Ecto Changeset clone (only validations) for Ruby.",
+                "url": "https://github.com/KouroshAlinaghi/ruby_changeset"
+            },
+            {
+                "title": "Little Elementor",
+                "description": "An Ecto Changeset clone (only validations) for Ruby.",
+                "url": "https://github.com/KouroshAlinaghi/little-elementor"
+            },
+            {
+                "title": "Elementor Web",
+                "description": "A web-interface for Little Elementor written in Sinatra.",
+                "url": "https://github.com/KouroshAlinaghi/elementor-web"
+            },
+            {
+                "title": "8 Queens",
+                "description": "Solving 8 queens puzzle in Ruby using iterative repair algorithm (n queens in a n*n board).",
+                "url": "https://github.com/KouroshAlinaghi/8-queen"
+            },
+            {
+                "title": "Einstein’s Riddle",
+                "description": "Solving Einstein’s Riddle with Ruby just for fun.",
+                "url": "https://github.com/KouroshAlinaghi/Einsteins-riddle"
+            },
+            {
+                "title": "Monty Hall problem",
+                "description": "I just don't get it.",
+                "url": "https://github.com/KouroshAlinaghi/monty-hall-problem"
+            }
+        ],
+        "Elixir": [
+            {
+                "title": "Calculator",
+                "description": "A calculator written in Elixir.",
+                "url": "https://github.com/KouroshAlinaghi/elixir-calculator"
+            },
+            {
+                "title": "Sudoku solver",
+                "description": "Solving sudoku using recursive algorithm, in a few seconds.",
+                "url": "https://github.com/KouroshAlinaghi/sudoko-solver"
+            },
+            {
+                "title": "School blog",
+                "description": "A simple blog (a school project).",
+                "url": "https://github.com/KouroshAlinaghi/school-blog"
+            }
+        ],
+        "Javascript": [
+            {
+                "title": "Memplator",
+                "description": "An inline Telegram bot to search meme templates.",
+                "url": "https://github.com/KouroshAlinaghi/memplator"
+            },
+            {
+                "title": "Todo React app",
+                "description": "A ToDo App Written In React.js.",
+                "url": "https://github.com/KouroshAlinaghi/todo-react-app"
+            }
+        ],
+        "Others": [
+            {
+                "title": "Terminal table",
+                "description": "A library that helps you create and print tables on your terminal, written in Crystal.",
+                "url": "https://github.com/KouroshAlinaghi/terminal_table"
+            },
+            {
+                "title": "Vim novak theme",
+                "description": "A dark colorscheme with colorful tokens for Vim!",
+                "url": "https://github.com/KouroshAlinaghi/vim-novak-theme"
+            },
+            {
+                "title": "Dotfiles",
+                "description": "My personal dotfiles + shell script to replace the configs.",
+                "url": "https://github.com/KouroshAlinaghi/dotfiles"
+            }
+        ]
+    }
+}

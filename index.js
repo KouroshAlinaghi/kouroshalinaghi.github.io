@@ -10,3 +10,14 @@ const slide = (direction, index) => {
         }
     }, 3)
 } 
+
+import data from './json/index.json';
+
+document.getElementById("header-title").innerHTML = data.heading.title;
+document.getElementById("header-description").innerHTML = data.heading.description;
+
+skillsContainer = document.getElementById("skills-container");
+
+for (skill in data.skills) {
+    console.log(skill);
+}
