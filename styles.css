@@ -1,7 +1,31 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #111;
+        --default-color: #fff;
+        --project-background-color: #222;
+        --svg-link-color: rgb(149, 149, 149);
+        --svg-link-hover-color: rgb(200, 200, 200);
+        --link-color: #eee;
+        --link-hover-color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: #f4f4f4;
+        --default-color: #111;
+        --project-background-color: #eee;
+        --svg-link-color: rgb(49, 49, 49);
+        --svg-link-hover-color: rgb(20, 20, 20);
+        --link-color: #eee;
+        --link-hover-color: #fff;
+    }
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #111;
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--default-color);
 }
 
 * {
@@ -11,13 +35,13 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(212, 212, 212)
+    color: var(--svg-link-color);
 }
 
 .link {
     padding: 10px;
     margin: 10px;
-    color: rgb(149, 149, 149);
+    color: var(--svg-link-color);
     height: 30px;
     width: 30px;
     font-size: 30px;
@@ -25,7 +49,7 @@ a {
 }
 
 .link:hover {
-    color: rgb(200, 200, 200);
+    color: var(--svg-link-hover-color);
 }
 
 #skills-text {
@@ -68,13 +92,13 @@ a {
 .scroll {
     background-color: transparent;
     border: none;
-    color: rgb(149, 149, 149);
+    color: var(--svg-link-color);
     transition: all 0.2s;
 }
 
 .scroll:hover {
     cursor: pointer;
-    color: rgb(200, 200, 200);
+    color: var(--svg-link-hover-color);
 }
 
 .project-title {
@@ -99,10 +123,11 @@ a {
     transition: all 0.2s;
     width: 100%;
     display: block;
+    color: var(--link-color);
 }
 
 .project-link:hover {
-    color: rgb(255, 255, 255);
+    color: var(--link-hover-color);
 }
 
 .project {
@@ -111,16 +136,16 @@ a {
     justify-content: space-between;
     flex: 0 0 40%;
     margin: 20px;
-    background-color: #222;
+    background-color: var(--project-background-color);
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.471);
 }
 
 #resume {
-    background: #333;
+    background: var(--background-color);
     display: block;
     border: none;
-    color: white;
+    color: var(--default-color);
     border-radius: 10px;
     text-align: center;
     margin: auto;
