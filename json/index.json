@@ -84,20 +84,30 @@
             "skill_title": "Others",
             "skill_projects": [
                 {
+                    "title": "Advanced programming projcts",
+                    "description": "My AP course projects, all written in C++",
+                    "url": "https://github.com/KouroshAlinaghi/ap-hws"
+                },
+                {
+                    "title": "Go calculator",
+                    "description": "A calculator, evaluating expressions with postfix expressions.",
+                    "url": "https://github.com/KouroshAlinaghi/go-calculator"
+                },
+                {
                     "title": "Terminal table",
                     "description": "A library that helps you create and print tables on your terminal, written in Crystal.",
                     "url": "https://github.com/KouroshAlinaghi/terminal_table"
+                },
+                {
+                    "title": "Dotfiles",
+                    "description": "My personal dotfiles + shell script to replace the configs.",
+                    "url": "https://github.com/KouroshAlinaghi/dotfiles"
                 },
                 {
                     "title": "Vim novak theme",
                     "description": "A dark colorscheme with colorful tokens for Vim!",
                     "url": "https://github.com/KouroshAlinaghi/vim-novak-theme"
                 },
-                {
-                    "title": "Dotfiles",
-                    "description": "My personal dotfiles + shell script to replace the configs.",
-                    "url": "https://github.com/KouroshAlinaghi/dotfiles"
-                }
             ]
         }
     ]
