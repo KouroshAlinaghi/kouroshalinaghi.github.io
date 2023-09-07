@@ -81,13 +81,28 @@
             ]
         },
         {
-            "skill_title": "Others",
+            "skill_title": "C/C++",
             "skill_projects": [
                 {
                     "title": "Advanced programming projcts",
                     "description": "My AP course projects, all written in C++",
                     "url": "https://github.com/KouroshAlinaghi/ap-hws"
                 },
+                {
+                    "title": "ICSP homeworks",
+                    "description": "Introduction to computing systems and programming homeworks",
+                    "url": "https://github.com/KouroshAlinaghi/icsp-hws"
+                },
+                {
+                    "title": "Summer of Code course",
+                    "description": "ACM's summer of code data structures and algorithms course files",
+                    "url": "https://github.com/KouroshAlinaghi/soc-alg"
+                },
+            ]
+        },
+        {
+            "skill_title": "Others",
+            "skill_projects": [
                 {
                     "title": "Go calculator",
                     "description": "A calculator, evaluating expressions with postfix expressions.",
@@ -100,7 +115,7 @@
                 },
                 {
                     "title": "Dotfiles",
-                    "description": "My personal dotfiles + shell script to replace the configs.",
+                    "description": "My personal config files",
                     "url": "https://github.com/KouroshAlinaghi/dotfiles"
                 },
                 {
