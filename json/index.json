@@ -1,7 +1,7 @@
 {
     "heading": {
         "title": "Hello, My name is Kourosh.",
-        "description": "I'm a Backend developer, mostly working with Ruby and Elixir.",
+        "description": "I'm a Backend developer and Computer Engineering Student at University of Tehran",
         "links": {
             "telegram": "https://t.me/kouroshalinaghi",
             "github": "https://github.com/kouroshAlinaghi",
@@ -11,92 +11,72 @@
 
     "skills": [
         {
-            "skill_title": "Ruby",
+            "skill_title": "Golang",
             "skill_projects": [
                 {
-                    "title": "Changeset",
-                    "description": "An Ecto Changeset clone (only validations) for Ruby.",
-                    "url": "https://github.com/KouroshAlinaghi/ruby_changeset"
+                    "title": "Mini Yektanet",
+                    "description": "An online adversiting platform.",
+                    "url": "https://github.com/YellowBloomKnapsack/mini-yektanet/"
                 },
-                {
-                    "title": "Little Elementor",
-                    "description": "An Ecto Changeset clone (only validations) for Ruby.",
-                    "url": "https://github.com/KouroshAlinaghi/little-elementor"
-                },
-                {
-                    "title": "Elementor Web",
-                    "description": "A web-interface for Little Elementor written in Sinatra.",
-                    "url": "https://github.com/KouroshAlinaghi/elementor-web"
-                },
-                {
-                    "title": "8 Queens",
-                    "description": "Solving 8 queens puzzle in Ruby using iterative repair algorithm (n queens in a n*n board).",
-                    "url": "https://github.com/KouroshAlinaghi/8-queen"
-                },
-                {
-                    "title": "Einstein’s Riddle",
-                    "description": "Solving Einstein’s Riddle with Ruby just for fun.",
-                    "url": "https://github.com/KouroshAlinaghi/Einsteins-riddle"
-                },
-                {
-                    "title": "Monty Hall problem",
-                    "description": "I just don't get it.",
-                    "url": "https://github.com/KouroshAlinaghi/monty-hall-problem"
-                }
-            ]
-        },
-        {
-            "skill_title": "Elixir",
-            "skill_projects": [
                 {
                     "title": "Calculator",
-                    "description": "A calculator written in Elixir.",
-                    "url": "https://github.com/KouroshAlinaghi/elixir-calculator"
+                    "description": "A simple calculator.",
+                    "url": "https://github.com/KouroshAlinaghi/go-calculator"
                 },
                 {
-                    "title": "Sudoku solver",
-                    "description": "Solving sudoku using recursive algorithm, in a few seconds.",
-                    "url": "https://github.com/KouroshAlinaghi/sudoko-solver"
+                    "title": "URL Shortener",
+                    "description": "A simple and minimalist URL shortener",
+                    "url": "https://github.com/KouroshAlinaghi/url-shortener"
                 },
                 {
-                    "title": "School blog",
-                    "description": "A simple blog (a school project).",
-                    "url": "https://github.com/KouroshAlinaghi/school-blog"
+                    "title": "ToDo App",
+                    "description": "A simple and minimalist todo app",
+                    "url": "https://github.com/KouroshAlinaghi/todoapp"
                 }
             ]
         },
         {
-            "skill_title": "Javascript",
+            "skill_title": "University Projects",
             "skill_projects": [
                 {
-                    "title": "Memplator",
-                    "description": "An inline Telegram bot to search meme templates.",
-                    "url": "https://github.com/KouroshAlinaghi/memplator"
-                },
-                {
-                    "title": "Todo React app",
-                    "description": "A ToDo App Written In React.js.",
-                    "url": "https://github.com/KouroshAlinaghi/todo-react-app"
-                }
-            ]
-        },
-        {
-            "skill_title": "C/C++",
-            "skill_projects": [
-                {
-                    "title": "Advanced programming projcts",
-                    "description": "My AP course projects, all written in C++",
+                    "title": "Advanced Programming",
+                    "description": "files for AP course projects.",
                     "url": "https://github.com/KouroshAlinaghi/ap-hws"
                 },
                 {
-                    "title": "ICSP homeworks",
-                    "description": "Introduction to computing systems and programming homeworks",
+                    "title": "Artificial intelligence",
+                    "description": "Notebooks of AI course.",
+                    "url": "https://github.com/KouroshAlinaghi/AI-Course"
+                },
+                {
+                    "title": "Data Structures",
+                    "description": "Files for DS course computer assignments.",
+                    "url": "https://github.com/KouroshAlinaghi/data-structures"
+                },
+                {
+                    "title": "Introduction to Computing Systems and Programming",
+                    "description": "Introduction to computing systems and programming homeworks and computer assignments.",
                     "url": "https://github.com/KouroshAlinaghi/icsp-hws"
                 },
                 {
-                    "title": "Summer of Code course",
-                    "description": "ACM's summer of code data structures and algorithms course files",
-                    "url": "https://github.com/KouroshAlinaghi/soc-alg"
+                    "title": "Engineering Statistics and Probabilities",
+                    "description": "File for engineering statistics and probabilities course computer assignments.",
+                    "url": "https://github.com/KouroshAlinaghi/engineering-statistics-and-probabilities"
+                },
+                {
+                    "title": "Computer Architecture",
+                    "description": "Implementation of different RISC-V microarchitectures.",
+                    "url": "https://github.com/KouroshAlinaghi/computer-architecture-course"
+                },
+                {
+                    "title": "Logic Circuits Lab",
+                    "description": "Implementation of some logical circuits.",
+                    "url": "https://github.com/KouroshAlinaghi/todoapp"
+                },
+                {
+                    "title": "Logic Circuits",
+                    "description": "Files for logic circuits course computer assignments.",
+                    "url": "https://github.com/KouroshAlinaghi/logic-circuits"
                 }
             ]
         },
@@ -104,24 +84,39 @@
             "skill_title": "Others",
             "skill_projects": [
                 {
-                    "title": "Go calculator",
-                    "description": "A calculator, evaluating expressions with postfix expressions.",
-                    "url": "https://github.com/KouroshAlinaghi/go-calculator"
-                },
-                {
                     "title": "Terminal table",
                     "description": "A library that helps you create and print tables on your terminal, written in Crystal.",
                     "url": "https://github.com/KouroshAlinaghi/terminal_table"
                 },
                 {
-                    "title": "Dotfiles",
-                    "description": "My personal config files",
-                    "url": "https://github.com/KouroshAlinaghi/dotfiles"
+                    "title": "Summer of Code course",
+                    "description": "ACM's summer of code data structures and algorithms course files",
+                    "url": "https://github.com/KouroshAlinaghi/soc-alg"
                 },
                 {
-                    "title": "Vim novak theme",
-                    "description": "A dark colorscheme with colorful tokens for Vim!",
-                    "url": "https://github.com/KouroshAlinaghi/vim-novak-theme"
+                    "title": "Little Elementor",
+                    "description": "Getting information about an element.",
+                    "url": "https://github.com/KouroshAlinaghi/little-elementor"
+                },
+                {
+                    "title": "Elementor Web",
+                    "description": "A web-interface for little elementor written in Sinatra.",
+                    "url": "https://github.com/KouroshAlinaghi/elementor-web"
+                },
+                {
+                    "title": "School blog",
+                    "description": "A simple blog (a school project).",
+                    "url": "https://github.com/KouroshAlinaghi/school-blog"
+                },
+                {
+                    "title": "Memplator",
+                    "description": "An inline Telegram bot to search meme templates.",
+                    "url": "https://github.com/KouroshAlinaghi/memplator"
+                },
+                {
+                    "title": "Changeset",
+                    "description": "An ecto changeset clone (only validations) for Ruby.",
+                    "url": "https://github.com/KouroshAlinaghi/ruby_changeset"
                 }
             ]
         }
